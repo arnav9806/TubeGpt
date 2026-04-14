@@ -1,0 +1,45 @@
+# FastAPI
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# Database
+sqlalchemy==2.0.29
+psycopg2-binary==2.9.9
+
+# Auth
+passlib[bcrypt]==1.7.4
+python-jose==3.3.0
+
+# Environment
+python-dotenv==1.0.1
+
+# AI / LLM
+openai==1.23.0
+langchain==0.1.16
+llama-index==0.10.30
+
+# Embeddings / Vector DB
+faiss-cpu==1.7.4
+sentence-transformers==2.6.1
+
+# YouTube Processing
+yt-dlp==2024.4.9
+youtube-transcript-api==0.6.2
+
+# Background Jobs
+celery==5.3.6
+redis==5.0.4
+
+# Utilities
+pydantic==2.6.4
+requests==2.31.0
+
+# Streamlit (Frontend)
+streamlit==1.33.0
+
+# File Export
+reportlab==4.1.0
+
+# Dev Tools
+black==24.4.2
+isort==5.13.2
